@@ -10,4 +10,4 @@ export default function App() {
     </div>
   )
 }
-document.getElementById('year').innerHTML=new Date().getFullYear()
+// document.getElementById('year').innerHTML=new Date().getFullYear()
