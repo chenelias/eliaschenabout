@@ -2,7 +2,7 @@
 .card--main{
     margin-left: auto;
     margin-right: auto;
-    height: 95vh;
+    height: 90vh;
     width: 350px;
     border: 2px solid #fff;
     border-radius:15px;
@@ -38,7 +38,7 @@
 .card--link{
     /* background-color: #fff; */
     background: transparent;
-    top: 100px;
+    top: 80px;
     position: relative;
 }
 .card--herf-fb{
@@ -74,6 +74,6 @@
 }
 .card--herf-footer{
     position: relative;
-    height: 20px;
+    height: 10px;
     background-color: transparent;
 }
