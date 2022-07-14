@@ -56,6 +56,10 @@
     background:linear-gradient(150deg,#5e706c,#000);   
 }
 .card--herf-fb,.card--herf-ig,.card--herf-github{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
     color: #fff;
     text-decoration:none;
     cursor: pointer;
@@ -72,6 +76,9 @@
     margin-left: 10px;
     margin-right: 10px;
     height: 25px;
+}
+.card--herf-ig{
+    margin-bottom: 10px;
 }
 .card--herf-ig:hover{
     letter-spacing: 2px;

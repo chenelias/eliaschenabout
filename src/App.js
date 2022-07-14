@@ -2,6 +2,8 @@ import React from 'react';
 import Card from './components/Card';
 import './css/indeex.css';
 import './css/scrollbar.css'
+
+
 export default function App() {
   return (
     <div>
