@@ -13,7 +13,7 @@
     display: none;
 }
 .card--img{
-    /* filter:grayscale(1); */
+    filter:grayscale(1);
     height: auto;
     width: 351px;
     margin-left: auto;
@@ -21,9 +21,6 @@
     border-top-right-radius: 15px;    
     border-top-left-radius: 15px;
     transition:0.5s;
-}
-.card--img:hover{
-    filter:grayscale(1);
 }
 .card--title{
     color: transparent;
