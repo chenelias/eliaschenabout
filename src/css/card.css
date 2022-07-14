@@ -15,7 +15,7 @@
 .card--img{
     /* filter:grayscale(1); */
     height: auto;
-    width: 348px;
+    width: 351px;
     margin-left: auto;
     margin-right: auto;
     border-top-right-radius: 15px;    
@@ -26,11 +26,14 @@
     filter:grayscale(1);
 }
 .card--title{
-    color: #fff;
+    color: transparent;
     text-align: center;
     position: relative;
     top: -10px;
     font-weight: 700;
+    background: linear-gradient(to left,#ffbb00,#9844ff);
+    background-clip: text;
+
 }
 .card--content{
     position: relative;
@@ -52,7 +55,10 @@
 .card--herf-ig{
     background:linear-gradient(150deg,#d2217a,#7b3ab5);   
 }
-.card--herf-fb,.card--herf-ig{
+.card--herf-github{
+    background:linear-gradient(150deg,#5e706c,#000);   
+}
+.card--herf-fb,.card--herf-ig,.card--herf-github{
     color: #fff;
     text-decoration:none;
     cursor: pointer;
@@ -73,6 +79,9 @@
 .card--herf-ig:hover{
     letter-spacing: 2px;
 }
+.card--herf-github:hover{
+    letter-spacing: 2px;
+}
 .card--herf-fb:hover{
     animation: backgroundmover ;
     letter-spacing: 2px;
@@ -82,3 +91,4 @@
     height: 8px;
     background-color: transparent;
 }
+/* This file is code by eliaschen */
